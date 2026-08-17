@@ -234,7 +234,6 @@ export default function Zones({ orders, setOrders, zones, setZones, pincodes }: 
                             <MoveRight
                               size={10}
                               className="chip-close"
-                              title="Move to another zone"
                               onClick={(e) => {
                                 e.stopPropagation();
                                 setMovePincodeModal({ pincode: pin, fromZone: z.zone_id });
